@@ -7,7 +7,7 @@ const Header = () => {
     const router = useRouter();
     return (
         <>
-            <header className="border-b fixed top-0 left-0 right-0 flex bg-dark z-10">
+            <header className="fixed top-0 left-0 right-0 flex bg-dark z-10">
                 <div
                     className="mx-auto w-full flex max-w-container items-center justify-between"
                     aria-label="Global">

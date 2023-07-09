@@ -1,8 +1,5 @@
-import Image from 'next/image'
-// import { Inter } from 'next/font/google'
+import TopPage from '@/features/top-page/containers/TopPage';
 
-// const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
-  return <div className='w-full mx-auto max-w-container'>Home</div>
+export default function Top() {
+  return  <TopPage></TopPage>
 }

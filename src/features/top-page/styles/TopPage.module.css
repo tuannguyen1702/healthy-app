@@ -1,0 +1,39 @@
+.ar-bg {
+    background-image: url('/images/d01.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.graph {
+    max-height: 300px;
+    margin: 12px 0px 0px 45px;
+    width: auto;
+}
+
+.hexagon-button {
+    height: 134px;
+    width: 116px;
+    background-image: url('/images/hexagon-button.svg');
+}
+
+.hexagon-button-icon {
+    margin: 24px auto 0 auto;
+}
+
+.food-card {
+    padding-top: 100%;
+    position: relative;
+}
+.food-card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+}
+
+.food-card-label {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
