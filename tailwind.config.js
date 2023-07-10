@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         'dark': '#414141',
         'darker': '#2E2E2E',
-        'label': '#FFCC21'
+        'label': '#FFCC21',
+        'sub-label': '#FF963C'
       },
       height: {
         '312': '312px'
