@@ -18,7 +18,7 @@ const MyRecord = () => {
 
     return <>
         <div className='max-w-container mx-auto'>
-            <div className="grid grid-cols-3 gap-10 mt-12 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-12 mb-10">
                 {buttons.map((item, idx) => {
                     return <LinkCard key={idx} {...item} />
                 })}
@@ -30,7 +30,7 @@ const MyRecord = () => {
                 <MyExercise data={myExercise} />
             </div>
             <h2 className='block-title'>My Diary</h2>
-            <div className="grid grid-cols-4 gap-4 mb-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                 {myDiaryData.map((item, idx) => {
                     return <MyDiary key={idx} {...item} />
                 })}

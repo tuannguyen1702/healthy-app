@@ -14,12 +14,12 @@ const ColumnPage = () => {
     }
     return <>
         <div className='max-w-container mx-auto'>
-            <div className="grid grid-cols-4 gap-8 mt-12 mb-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-12 mb-10">
                 {links.map((item, idx) => {
                     return <LinkCard key={idx} {...item} />
                 })}
             </div>
-            <div className="grid grid-cols-4 gap-4 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
                 {foodsData.map((item, idx) => {
                     return <FoodCard key={idx} {...item} />
                 })}

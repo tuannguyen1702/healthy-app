@@ -24,49 +24,49 @@ export const links = [
 export const foods = [
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-1.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     },
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-2.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     },
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-3.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     },
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-4.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     },
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-5.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     },
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-6.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     },
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-7.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     },
     {
         title: '2021.05.17   23:25',
-        imageUrl: '/images/d01.jpg',
+        imageUrl: '/images/column-8.jpg',
         description: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ 魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ',
         tags: ['魚料理', '和食', 'DHA']
     }

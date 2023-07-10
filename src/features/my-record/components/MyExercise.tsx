@@ -17,7 +17,7 @@ const MyExercise = (props: MyExerciseProps) => {
         <div className='flex'>
             <label className='title-break mr-6'>My Exercise</label><label className='block-title'>2023.11.11</label>
         </div>
-        <ul className={'grid grid-cols-2 gap-x-10 text-sm font-thin list-disc list-inside custom-scroll pr-4 ' + styles['exercise-list']}>
+        <ul className={'grid grid-cols-1 md:grid-cols-2 gap-x-10 text-sm font-thin list-disc list-inside custom-scroll pr-4 ' + styles['exercise-list']}>
             {
                 data.map((item, idx) => {
                     return <li key={idx} className="pt-2 pb-1 border-b border-gray-500 flex">
