@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body {
-  font-family: hiragino-kaku-gothic-pron, sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #414141;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .max-w-container {
@@ -49,6 +52,7 @@ body {
   border-top: solid #2e2e2e3f 0.5px;
   border-bottom: solid rgba(255, 255, 255, 0.15) 0.5px;
   margin-bottom: -1px;
+  cursor: pointer;
 }
 
 /* Hide scrollbar track */

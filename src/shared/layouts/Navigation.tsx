@@ -15,7 +15,7 @@ const Header = () => {
         router.push(url);
     }
     return (
-        <nav className="text-white font-light flex justify-end gap-8">
+        <nav className="text-light font-light flex justify-end gap-8">
             <Link href={'/my-record'} className="flex items-center space-x-2">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect opacity="0.01" width="32" height="32" fill="#FF963C" />
@@ -76,7 +76,7 @@ const Header = () => {
                             <path d="M7 26L26 7" stroke="#FF963C" stroke-width="3" />
                         </svg>}
                 </button>
-                <div className={'absolute top-full right-0 mt-4 text-white drop-down-menu ' + (!isOpenMenu ? 'hidden':'')}>
+                <div className={'absolute top-full right-0 mt-4 text-light drop-down-menu ' + (!isOpenMenu ? 'hidden':'')}>
                     <a onClick={() => goToPage('')}>自分の記録</a>
                     <a onClick={() => goToPage('')}>体重グラフ</a>
                     <a onClick={() => goToPage('')}>目標</a>

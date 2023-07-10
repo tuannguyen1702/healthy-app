@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from '../styles/MyRecord.module.css';
 
 const BodyRecordGraph = () => {
-    return <div className={'w-full h-312 bg-darker text-white py-3 px-4'}>
+    return <div className={'w-full h-312 bg-dark-500 text-light py-3 px-4'}>
         <div className='flex'>
             <label className='title-break mr-6'>Body Record</label><label className='block-title'>2023.11.11</label>
         </div>

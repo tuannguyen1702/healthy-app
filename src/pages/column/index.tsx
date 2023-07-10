@@ -1,8 +1,8 @@
-import TopPage from "@/features/top-page/containers/TopPage";
+import ColumnPage from "@/features/column-page/containers/ColumnPage";
 
 const ShareVideoPage = () => {
   return (
-    <TopPage></TopPage>
+    <ColumnPage></ColumnPage>
   );
 };
 

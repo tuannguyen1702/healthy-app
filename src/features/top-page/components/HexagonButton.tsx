@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/TopPage.module.css';
 
 const HexagonButton = () => {
-    return <div className={'mx-3 text-center text-white ' + styles['hexagon-button']}>
+    return <div className={'mx-3 text-center text-light ' + styles['hexagon-button']}>
         <div>
             <svg className={styles['hexagon-button-icon']} width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect opacity="0.01" width="56" height="56" fill="white" />

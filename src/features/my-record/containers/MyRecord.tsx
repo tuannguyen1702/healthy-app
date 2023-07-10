@@ -80,10 +80,10 @@ const MyRecord = () => {
                     return <LinkCard key={idx} {...item} />
                 })}
             </div>
-            <div className="bg-darker mb-10">
+            <div className="bg-dark-500 mb-10">
                 <BodyRecordGraph />
             </div>
-            <div className="bg-darker mb-10">
+            <div className="bg-dark-500 mb-10">
                 <MyExercise />
             </div>
             <h2 className='block-title'>My Diary</h2>

@@ -46,7 +46,7 @@ const TopPage = () => {
         }
     ]
     return <>
-        <div className='bg-darker h-312 w-full'>
+        <div className='bg-dark-600 h-312 w-full'>
             <div className='max-w-7xl flex w-full mx-auto'>
                 <div className={'flex w-ar'}><AchievementRate /></div>
                 <div className='flex-1'><Graph /></div>
