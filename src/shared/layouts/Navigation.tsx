@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const Header = () => {
     const router = useRouter();
+    const { pathname } = router;
     const [isOpenMenu, setIsOpenMenu] = useState(false);
 
     const openMenuHandle = () => {
@@ -16,7 +17,7 @@ const Header = () => {
     }
     return (
         <nav className="text-light font-light flex justify-end gap-8">
-            <Link href={'/my-record'} className="flex items-center space-x-2">
+            <Link href={'/my-record'} className={`flex items-center space-x-2 ${pathname === '/my-record'? 'text-primary-400': ''}`}>
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect opacity="0.01" width="32" height="32" fill="#FF963C" />
                     <path d="M29.5491 10.665L28.5569 9.67389C27.9562 9.07196 26.9812 9.07318 26.3793 9.67389L25.452 10.6024L28.6208 13.7711L29.5491 12.8437C30.1499 12.2419 30.1499 11.2669 29.5491 10.665H29.5491Z" fill="#FF963C" />
@@ -26,7 +27,7 @@ const Header = () => {
                     <rect x="9.36633" y="20.8625" width="5.47042" height="1.49193" fill="#FF963C" />
                     <path d="M22.5858 26.5985C22.5858 26.826 22.4027 27.0117 22.1775 27.0129H5.36658C5.14148 27.0117 4.9596 26.826 4.95838 26.5985V5.40259C4.9596 5.17407 5.14149 4.98828 5.36658 4.98718H22.1775C22.4027 4.98828 22.5858 5.17407 22.5858 5.40259V11.3897L24.5441 9.40253V5.40259C24.543 4.07593 23.4861 3.0011 22.1775 3H5.36658C4.05933 3.0011 3.00147 4.07593 3 5.40259V26.5985C3.00146 27.9252 4.05933 28.9989 5.36658 29H22.1775C23.4861 28.9989 24.543 28.7748 24.5441 27.4482V19.9488L22.5858 21.9359V26.5985Z" fill="#FF963C" />
                 </svg>
-                <span>自分の記録</span>
+                <span className="hidden md:block">自分の記録</span>
             </Link>
             <a href="#" className="flex items-center space-x-2">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,16 +53,16 @@ const Header = () => {
                     </defs>
                 </svg>
 
-                <span>チャレンジ</span>
+                <span className="hidden md:block">チャレンジ</span>
             </a>
             <a href="#" className="flex items-center space-x-2">
                 <svg width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M25.5 22.2975H13.0722L5.07178 28V22.2975H0.5V0H25.5V22.2975H25.5ZM23.2142 2.27186H2.78577V20.0256H7.35755V23.5755L12.3374 20.0256H23.2142V2.27186ZM14.3634 10.391V16.9249H11.7335V10.391H14.3634ZM13.048 8.4314C13.9555 8.4314 14.6913 7.69983 14.6913 6.79798C14.6913 5.896 13.9555 5.16444 13.048 5.16444C12.1405 5.16444 11.4044 5.89601 11.4044 6.79798C11.4044 7.69984 12.1405 8.4314 13.048 8.4314Z" fill="#FF963C" />
                 </svg>
 
-                <span>お知らせ</span>
+                <span className="hidden md:block">お知らせ</span>
             </a>
-            <div className="relative flex items-center space-x-2">
+            <div className="relative flex items-center space-x-2 mr-1 md:mr-0">
                 <button onClick={openMenuHandle} className="focus:outline-none">
                     {!isOpenMenu ?
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">

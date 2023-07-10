@@ -88,3 +88,27 @@ body {
 .custom-scroll::-webkit-scrollbar-thumb:hover {
   background-color: #f1ba04;
 }
+
+.process-circle-container {
+  position: relative;
+}
+
+.process-circle {
+  fill: none;
+  box-shadow: #414141;
+  animation: progress 1s ease-out forwards;
+}
+
+.process-circle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
