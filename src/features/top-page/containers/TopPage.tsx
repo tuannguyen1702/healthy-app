@@ -3,7 +3,7 @@ import Graph from '../components/Graph';
 import AchievementRate from '../components/AchievementRate';
 import styles from '../styles/TopPage.module.css';
 import HexagonButton from '../components/HexagonButton';
-import FoodCard, { FoodCardProps } from '../components/FoodCard';
+import FoodCard from '../components/FoodCard';
 import Button from '@/shared/components/Button';
 
 const TopPage = () => {
@@ -11,7 +11,7 @@ const TopPage = () => {
         {}
     ];
 
-    const foods: FoodCardProps[] = [
+    const foods = [
         {
             title: 'Morning',
             imageUrl: '/images/d01.jpg'

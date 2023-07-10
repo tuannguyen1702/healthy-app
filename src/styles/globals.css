@@ -55,6 +55,17 @@ body {
   cursor: pointer;
 }
 
+.line-chart canvas {
+  max-width: calc(100%);
+  padding: 10px 6%;
+}
+
+.line-chart-record {
+  max-width: calc(100%);
+  max-height: calc(100% - 50px);
+  padding: 10px 24px;
+}
+
 /* Hide scrollbar track */
 .custom-scroll::-webkit-scrollbar {
   width: 6px; 

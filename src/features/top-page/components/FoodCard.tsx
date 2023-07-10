@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from '../styles/TopPage.module.css';
 
-export interface LinkCardProps {
+export interface FoodCardProps {
     title: string;
     imageUrl: string;
 }
 
-const FoodCard = (props: LinkCardProps) => {
+const FoodCard = (props:FoodCardProps) => {
     const { title, imageUrl } = props;
     return <div className={styles['food-card']}>
         <div className={'bg-gray-100 ' + styles['food-card-content']} style={{backgroundImage: `url(${imageUrl})`}}>
